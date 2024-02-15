@@ -30,7 +30,7 @@ button {
 
   width: 70px;
 
-  font-size: 16px;
+  font-size: 18px;
 
   border: none;
 
@@ -90,19 +90,19 @@ button {
 #yay1 {
   display: none;
 
-  width: 160px;
+  width: 210px;
 
   position: absolute;
 
-  margin-top: -250px;
+  margin-top: -300px;
 }
 
 #can1 {
-  width: 100px;
+  width: 150px;
 
   position: absolute;
 
-  margin-top: -250px;
+  margin-top: -350px;
 
   display: block;
 }
@@ -110,9 +110,11 @@ button {
 #can {
   position: absolute;
 
-  margin-top: -100px;
+  margin-top: -130px;
 
   font-weight: 600;
+
+	font-size: 30px;
 
   display: block;
 }

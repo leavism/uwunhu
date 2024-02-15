@@ -11,9 +11,11 @@ const can1 = document.getElementById("can1");
 const can = document.getElementById("can");
 
 noBtn.addEventListener("click", () => {
-  yesBtn.style.width = `${yesBtn.offsetWidth + 40}px`;
-
-  yesBtn.style.height = `${yesBtn.offsetHeight + 40}px`;
+  yesBtn.style.width = `${yesBtn.offsetWidth + 50}px`;
+  yesBtn.style.height = `${yesBtn.offsetHeight + 50}px`;
+	
+	can1.style.width = `${can1.offsetWidth + 10}px`;
+	can1.style.height = `${can1.offsetHeight + 10}px`;
 });
 
 yesBtn.addEventListener("click", () => {
